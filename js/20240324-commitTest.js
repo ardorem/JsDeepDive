@@ -1,3 +1,3 @@
 // Created on iPhone.
 let device = 'iphone';
- console.log('hello' + device);
+ console.log('hello ' + device);
