@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insert HTML into Element</title>
+</head>
+<body>
+
+  <div id="targetElement">
+    <!-- 기존 내용 -->
+    <p>This is the existing content.</p>
+  </div>
+  <button type="button" onclick="add()">ADD</button>
+  <script>
+    // 특정 요소를 찾음
+    const targetElement = document.getElementById('targetElement');
+
+    // HTML을 삽입
+    // targetElement.innerHTML = '<p>This is the new content.</p>';
+    
+    function add() {
+        console.log(43)
+        targetElement.innerHTML += '<p>Tfdnt.</p>';
+
+    }
+  </script>
+
+</body>
+</html>
